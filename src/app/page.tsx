@@ -1,10 +1,10 @@
 import NavigationBar from '../components/NavigationBar'
+import SearchBar from '../components/SearchBar';
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white">
       <NavigationBar />
-      {/* Rest of your page content */}
     </div>
   )
 }

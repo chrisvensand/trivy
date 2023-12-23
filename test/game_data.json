@@ -1,0 +1,112 @@
+{
+    "body": {
+        "_id": "6584c4daadf4fc2beb27c58d",
+        "topic": "Art",
+        "slug": "art",
+        "createdBy": "trivy",
+        "questions": [
+            {
+                "question": "Who painted the Mona Lisa?",
+                "choices": [
+                    "Leonardo da Vinci",
+                    "Vincent van Gogh",
+                    "Pablo Picasso",
+                    "Michelangelo"
+                ],
+                "answer": "Leonardo da Vinci"
+            },
+            {
+                "question": "Which artist is famous for his use of melting clocks in his artworks?",
+                "choices": [
+                    "Salvador Dali",
+                    "Claude Monet",
+                    "Georgia O'Keeffe",
+                    "Henri Matisse"
+                ],
+                "answer": "Salvador Dali"
+            },
+            {
+                "question": "In which city is the famous sculpture 'The Thinker' located?",
+                "choices": [
+                    "Paris",
+                    "Rome",
+                    "London",
+                    "New York"
+                ],
+                "answer": "Paris"
+            },
+            {
+                "question": "Who painted the ceiling of the Sistine Chapel in Vatican City?",
+                "choices": [
+                    "Michelangelo",
+                    "Leonardo da Vinci",
+                    "Rembrandt",
+                    "Vincent van Gogh"
+                ],
+                "answer": "Michelangelo"
+            },
+            {
+                "question": "Which artist is known for his sunflowers series of paintings?",
+                "choices": [
+                    "Vincent van Gogh",
+                    "Pablo Picasso",
+                    "Claude Monet",
+                    "Georgia O'Keeffe"
+                ],
+                "answer": "Vincent van Gogh"
+            },
+            {
+                "question": "Who is the creator of the famous painting 'Starry Night'?",
+                "choices": [
+                    "Vincent van Gogh",
+                    "Leonardo da Vinci",
+                    "Pablo Picasso",
+                    "Salvador Dali"
+                ],
+                "answer": "Vincent van Gogh"
+            },
+            {
+                "question": "What is the name of the famous sculpture by Auguste Rodin showing a man in a sitting position with his hand on his chin?",
+                "choices": [
+                    "The Thinker",
+                    "The Kiss",
+                    "The Scream",
+                    "David"
+                ],
+                "answer": "The Thinker"
+            },
+            {
+                "question": "Which artist is known for painting the 'Persistence of Memory' with melting clocks?",
+                "choices": [
+                    "Salvador Dali",
+                    "Claude Monet",
+                    "Henri Matisse",
+                    "Rembrandt"
+                ],
+                "answer": "Salvador Dali"
+            },
+            {
+                "question": "Who painted the mural 'Guernica' depicting the horrors of war?",
+                "choices": [
+                    "Pablo Picasso",
+                    "Vincent van Gogh",
+                    "Leonardo da Vinci",
+                    "Georgia O'Keeffe"
+                ],
+                "answer": "Pablo Picasso"
+            },
+            {
+                "question": "Which artwork is located on the ceiling of the Sistine Chapel?",
+                "choices": [
+                    "The Creation of Adam",
+                    "Mona Lisa",
+                    "The Last Supper",
+                    "Starry Night"
+                ],
+                "answer": "The Creation of Adam"
+            }
+        ],
+        "createdAt": 1703199962,
+        "plays": 0
+    }
+}

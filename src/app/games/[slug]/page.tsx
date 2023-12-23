@@ -14,7 +14,7 @@ export default function GamePage({ params }: { params: { slug: string }}) {
         fetch(`/api/game?slug=${params.slug}&numQuestions=10`)
             .then(response => response.json())
             .then(data => {
-                console.log(data); // Log the response
+                console.log(JSON.stringify(data, null, 4)); // Log the response
                 setGame(data);
             })
             .catch(error => console.error('Error:', error));

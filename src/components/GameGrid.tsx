@@ -11,6 +11,7 @@ export default function GameGrid() {
     const fetchPopularGames = async () => {
         const response = await fetch(`/api/games?type=popular&pageSize=20`);
         const data = await response.json();
+        console.log(JSON.stringify(data, null, 4));
         setGames(oldGames => [...oldGames, ...data.body]);
     };
 

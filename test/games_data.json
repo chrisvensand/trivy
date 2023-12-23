@@ -1,0 +1,124 @@
+{
+    "body": [
+        {
+            "_id": "6584ca53adf4fc2beb27c597",
+            "topic": "Architecture",
+            "slug": "architecture",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c5b5adf4fc2beb27c58f",
+            "topic": "Animals",
+            "slug": "animals",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c2e5adf4fc2beb27c589",
+            "topic": "Movies",
+            "slug": "movies",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c8a1adf4fc2beb27c595",
+            "topic": "Politics",
+            "slug": "politics",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c6ddadf4fc2beb27c591",
+            "topic": "Language",
+            "slug": "language",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c4daadf4fc2beb27c58d",
+            "topic": "Art",
+            "slug": "art",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584cb1aadf4fc2beb27c598",
+            "topic": "Gaming",
+            "slug": "gaming",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c179adf4fc2beb27c586",
+            "topic": "Geography",
+            "slug": "geography",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c649adf4fc2beb27c590",
+            "topic": "Food & Drink",
+            "slug": "food-drink",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c347adf4fc2beb27c58a",
+            "topic": "Music",
+            "slug": "music",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c83fadf4fc2beb27c594",
+            "topic": "Space",
+            "slug": "space",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c743adf4fc2beb27c592",
+            "topic": "Mythology",
+            "slug": "mythology",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c427adf4fc2beb27c58c",
+            "topic": "Literature",
+            "slug": "literature",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c95aadf4fc2beb27c596",
+            "topic": "Fashion",
+            "slug": "fashion",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c26badf4fc2beb27c588",
+            "topic": "Science",
+            "slug": "science",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c539adf4fc2beb27c58e",
+            "topic": "Technology",
+            "slug": "technology",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c117adf4fc2beb27c585",
+            "topic": "General Knowledge",
+            "slug": "general-knowledge",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c205adf4fc2beb27c587",
+            "topic": "History",
+            "slug": "history",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c3aeadf4fc2beb27c58b",
+            "topic": "Sports",
+            "slug": "sports",
+            "createdBy": "trivy"
+        },
+        {
+            "_id": "6584c7ceadf4fc2beb27c593",
+            "topic": "TV Shows",
+            "slug": "tv-shows",
+            "createdBy": "trivy"
+        }
+    ]
+}

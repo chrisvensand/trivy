@@ -16,47 +16,72 @@ client = MongoClient(f'mongodb+srv://{username}:{password}@trivycluster0.wwtabms
 db = client['triviaGames']
 games_collection = db['games']
 
-top_trivia_categories = [{'name': 'General Knowledge', 'slug': 'general-knowledge'}, {'name': 'Geography', 'slug': 'geography'}, {'name': 'History', 'slug': 'history'}, {'name': 'Science', 'slug': 'science'}, {'name': 'Movies', 'slug': 'movies'}, {'name': 'Music', 'slug': 'music'}, {'name': 'Sports', 'slug': 'sports'}, {'name': 'Literature', 'slug': 'literature'}, {'name': 'Art', 'slug': 'art'}, {'name': 'Technology', 'slug': 'technology'}, {'name': 'Animals', 'slug': 'animals'}, {'name': 'Food & Drink', 'slug': 'food-drink'}, {'name': 'Language', 'slug': 'language'}, {'name': 'Mythology', 'slug': 'mythology'}, {'name': 'TV Shows', 'slug': 'tv-shows'}, {'name': 'Space', 'slug': 'space'}, {'name': 'Politics', 'slug': 'politics'}, {'name': 'Fashion', 'slug': 'fashion'}, {'name': 'Architecture', 'slug': 'architecture'}, {'name': 'Gaming', 'slug': 'gaming'}, {'name': 'Transportation', 'slug': 'transportation'}, {'name': 'Environment', 'slug': 'environment'}, {'name': 'Economics', 'slug': 'economics'}, {'name': 'Inventions', 'slug': 'inventions'}, {'name': 'Celebrities', 'slug': 'celebrities'}, {'name': 'Human Body', 'slug': 'human-body'}, {'name': 'Famous Landmarks', 'slug': 'famous-landmarks'}, {'name': 'Fashion Brands', 'slug': 'fashion-brands'}, {'name': 'Mythical Creatures', 'slug': 'mythical-creatures'}, {'name': 'Dinosaurs', 'slug': 'dinosaurs'}, {'name': 'Ancient Civilizations', 'slug': 'ancient-civilizations'}, {'name': 'World Leaders', 'slug': 'world-leaders'}, {'name': 'Olympic Games', 'slug': 'olympic-games'}, {'name': 'Weather', 'slug': 'weather'}, {'name': 'Astronomy', 'slug': 'astronomy'}, {'name': 'Currencies', 'slug': 'currencies'}, {'name': 'World Religions', 'slug': 'world-religions'}, {'name': 'Famous Quotes', 'slug': 'famous-quotes'}, {'name': 'Superheroes', 'slug': 'superheroes'}, {'name': 'Random Facts', 'slug': 'random-facts'}, {'name': 'Riddles', 'slug': 'riddles'}, {'name': 'Board Games', 'slug': 'board-games'}, {'name': 'Computer Science', 'slug': 'computer-science'}, {'name': 'Cryptocurrency', 'slug': 'cryptocurrency'}, {'name': 'Unsolved Mysteries', 'slug': 'unsolved-mysteries'}, {'name': 'Famous Scandals', 'slug': 'famous-scandals'}]
+model = "gpt-3.5-turbo-1106"
 
-def get_random_trivia(topic: str, num_questions: int):
+with open('trivia_categories.json', 'r') as f:
+    json_value = json.load(f)
+    trivia_categories = json_value["triviaCategories"]
+
+def get_random_trivia(topic: str):
     all_questions = []
     chat_client = OpenAI()
-    while len(all_questions) < num_questions:
-        output_questions = min(50, num_questions - len(all_questions))
-        messages = [{"role": "system", "content": "You are a helpful assistant."}]
-        prompt = {
-            "role": "user",
-            "content": (
-                f"Generate {output_questions} trivia questions in json format about {topic}. "
-                "Return the questions as json objects in the following format: "
-                "{'questions': [{'question': '<question>', 'choices': ['<choice1>', '<choice2>', '<choice3>', '<choice4>'], "
-                "'answer': '<answer>'}, ...]}. Each answer should be one of the available choices for the question. "
-                "Please return the questions in a list."
-            ),
-        }
-        if all_questions:
-            prompt["content"] += " The questions should be different from the following questions: " + ", ".join(
-                question["question"] for question in all_questions
+    try:
+        while len(all_questions) < 35:
+            messages = [{"role": "system", "content": "You are a helpful assistant who generates trivia questions."}]
+            prompt = {
+                "role": "user",
+                "content": (
+                    f"Generate 60 difficult trivia questions about {topic}. "
+                    "Return the questions as json objects in the following format: "
+                    "{"
+                    "   questions: ["
+                    "       {"
+                    "           question: <trivia question>,"
+                    "           choices: [<choice 1>, <choice 2>, <choice 3>, <choice 4>],"
+                    "           answer: <answer>"
+                    "       },"
+                    "       ..."
+                    "   ]"
+                    "}"
+                    "Each answer should be one of the available choices for the question. "
+                    "The questions should be about the topic and be challenging. "
+                    "The questions, choices, and answers should be strings. "
+                    "Do not have repeated questions, answers, or choices. "
+                    "Do not have questions with the same answer. "
+                    "Do not have questions with the same choices. "
+                    "Do not have questions with the same question. "
+                    "Make sure the result is valid json."
+                ),
+            }
+            if all_questions:
+                prompt["content"] += " The questions should be different from the following questions: " + ", ".join(
+                    question["question"] for question in all_questions
+                )
+            messages.append(prompt)
+            response = chat_client.chat.completions.create(
+                model=model,
+                response_format={"type": "json_object"},
+                messages=messages,
             )
-        messages.append(prompt)
-        response = chat_client.chat.completions.create(
-            model="gpt-3.5-turbo-1106",
-            response_format={"type": "json_object"},
-            messages=messages,
-        )
-        new_questions = json.loads(response.choices[0].message.content)["questions"]
-        unique_questions = [q for q in new_questions if q["question"] not in [x["question"] for x in all_questions]]
-        all_questions.extend(unique_questions)
-        print(f"Generated {len(unique_questions)} unique questions")
-    print(f"Generated {len(all_questions)} questions total")
+            new_questions = json.loads(response.choices[0].message.content)["questions"]
+            unique_questions = [q for q in new_questions if q["question"] not in [x["question"] for x in all_questions]]
+            all_questions.extend(unique_questions)
+            print(f"Generated {len(unique_questions)} unique questions")
+        print(f"Generated {len(all_questions)} questions total")
+    except Exception as e:
+        print("Error generating questions for topic: " + topic)
+        print(e)
     return all_questions
 
-for topic in top_trivia_categories:
-    games_collection.insert_one({
-        'topic': topic['name'],
-        'slug': topic['slug'],
-        'createdBy': 'trivy',
-        'questions': get_random_trivia(topic['name'], 100),
-        'createdAt': int(time.time()),
-        'plays': 0,
-    })
+for category in trivia_categories:
+    for game in category['games']:
+        print(f"Generating questions for {game['title']} in {category['category']}")
+        games_collection.insert_one({
+            'category': category['category'],
+            'title': game['title'],
+            'slug': game['slug'],
+            'createdBy': 'trivy',
+            'questions': get_random_trivia(game['title']),
+            'createdAt': int(time.time()),
+            'plays': 0,
+        })

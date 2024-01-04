@@ -5,26 +5,11 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(req: NextRequest, res: NextResponse) {
     // Get the query parameters
     const searchParams = req.nextUrl.searchParams;
-    const type = searchParams.get('type');
     const page = parseInt(searchParams.get('page') || '1', 10);
-    const pageSize = parseInt(searchParams.get('pageSize') || '10', 10);
-
-    // Validate the parameters
-    if (!type) {
-        return NextResponse.json(
-            { error: 'Missing required parameter: type' },
-            { status: 400 }
-        );
-    }
-
-    if (type !== 'new' && type !== 'popular') {
-        return NextResponse.json(
-            { error: 'Invalid type parameter. Must be "new" or "popular".' },
-            { status: 400 }
-        );
-    }
-
-    const games = await fetchGamesFromDatabase(type, page, pageSize);
+    const pageSize = parseInt(searchParams.get('pageSize') || '400', 10);
+    const search = searchParams.get('search');
+    const category = searchParams.get('category'); // Get the category query parameter
+    const games = await fetchGamesFromDatabase(page, pageSize, search, category);
 
     return NextResponse.json(
         { body: games },
@@ -32,7 +17,7 @@ export async function GET(req: NextRequest, res: NextResponse) {
     );
 }
 
-async function fetchGamesFromDatabase(type: string | string[], page: number, pageSize: number) {
+async function fetchGamesFromDatabase(page: number, pageSize: number, search: string | null, category: string | null) {
     const uri = process.env.MONGODB_URI;
     const client = new MongoClient(uri || '');
 
@@ -46,17 +31,19 @@ async function fetchGamesFromDatabase(type: string | string[], page: number, pag
 
         // Build the query and sort options based on the type
         let query = {};
-        let sort = {};
-        if (type === 'new') {
-            sort = { createdAt: -1 }; // sort by createdAt in descending order for new games
-        } else if (type === 'popular') {
-            sort = { plays: -1 }; // sort by plays in descending order for popular games
+
+        if (search) {
+            query = { ...query, title: { $regex: new RegExp(search, 'i') } };
+        }
+
+        if (category) {
+            query = { ...query, category: category };
         }
 
         // Fetch the games
         const games = await collection.find(
-            query, { projection: { topic: 1, slug: 1, createdBy: 1 } }
-        ).sort(sort).skip(skip).limit(pageSize).toArray();
+            query, { projection: { category: 1, title: 1, slug: 1 } }
+        ).sort({ plays: -1, _id: 1 }).skip(skip).limit(pageSize).toArray();
 
         return games;
     } finally {

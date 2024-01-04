@@ -1,7 +1,11 @@
 import { MongoClient } from 'mongodb';
 import { NextRequest, NextResponse } from 'next/server'; 
 
+
 export async function GET(req: NextRequest) {
+    // Get the query parameters even though I dont use them!?!?! Frontend is weird
+    const searchParams = req.nextUrl.searchParams;
+
     const categories = await fetchCategoriesFromDatabase();
 
     return NextResponse.json(

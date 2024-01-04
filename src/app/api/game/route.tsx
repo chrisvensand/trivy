@@ -2,7 +2,7 @@ import { MongoClient } from 'mongodb';
 import { NextRequest, NextResponse } from 'next/server'; 
 
 
-export async function GET(req: NextRequest, res: NextResponse) {
+export async function GET(req: NextRequest) {
     // Get the query parameters
     const searchParams = req.nextUrl.searchParams;
     const slug = searchParams.get('slug');

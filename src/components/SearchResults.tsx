@@ -12,7 +12,7 @@ interface SearchResultsProps {
     mouseDownOnResult: React.MutableRefObject<boolean>;
 }
 
-const categoryColors = {
+const categoryColors: { [key: string]: string } = {
     'General Knowledge': 'bg-blue-500',
     'History': 'bg-red-500',
     'Science & Nature': 'bg-green-500',

@@ -4,12 +4,18 @@ import { useState, useEffect, useMemo } from 'react';
 import Question from '@/components/Question';
 import Score from '@/components/Score';
 
+interface Question {
+    question: string;
+    choices: string[];
+    answer: string;
+}
+
 function TriviaGame({ slug }: { slug: string }) {
-    const [questions, setQuestions] = useState([]);
+    const [questions, setQuestions] = useState<Question[]>([]);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [score, setScore] = useState(0);
     const [gameFinished, setGameFinished] = useState(false);
-    const [selectedAnswer, setSelectedAnswer] = useState(null);
+    const [selectedAnswer, setSelectedAnswer] = useState<string>("");
     const [answerSubmitted, setAnswerSubmitted] = useState(false);
 
     const fetchQuestions = () => {
@@ -25,7 +31,7 @@ function TriviaGame({ slug }: { slug: string }) {
         fetchQuestions();
     }, [slug]);
 
-    const handleAnswer = (isCorrect) => {
+    const handleAnswer = (isCorrect: boolean) => {
         if (isCorrect) {
             setScore(prevScore => prevScore + 1);
         }
@@ -37,7 +43,7 @@ function TriviaGame({ slug }: { slug: string }) {
         if (answerSubmitted) {
             if (currentQuestionIndex < questions.length - 1) {
                 setCurrentQuestionIndex(prevIndex => prevIndex + 1);
-                setSelectedAnswer(null);
+                setSelectedAnswer("");
                 setAnswerSubmitted(false);
             } else {
                 setGameFinished(true);
@@ -48,7 +54,7 @@ function TriviaGame({ slug }: { slug: string }) {
     const resetGame = () => {
         setScore(0);
         setCurrentQuestionIndex(0);
-        setSelectedAnswer(null);
+        setSelectedAnswer("");
         setGameFinished(false);
     };
 
@@ -60,7 +66,7 @@ function TriviaGame({ slug }: { slug: string }) {
         return array;
     };
 
-    const shuffledQuestions = useMemo(() => questions.map(question => ({
+    const shuffledQuestions = useMemo(() => questions.map((question: Question) => ({
         ...question,
         choices: shuffleArray([...question.choices])
     })), [questions]);

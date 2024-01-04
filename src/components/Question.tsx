@@ -28,7 +28,7 @@ function Question({ question, choices, correctAnswer, onAnswer, selectedAnswer, 
                             key={index}
                             className={`text-lg px-6 py-3 rounded text-white my-2 ${buttonColor}`}
                             onClick={() => handleAnswerClick(choice)}
-                            disabled={selectedAnswer !== null}
+                            disabled={selectedAnswer !== ""}
                         >
                             {choice}
                         </button>

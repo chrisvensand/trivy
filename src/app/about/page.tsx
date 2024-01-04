@@ -10,7 +10,7 @@ export default function About() {
           Discover the Future of Trivia
         </h1>
         <p className="text-lg mt-4">
-          Embark on an exhilarating trivia journey with <span className="font-bold">Trivy Trivia</span>, a next-generation web application crafted with the power of Next.js and TypeScript. Dive into the world of trivia like never before, fueled by the groundbreaking OpenAI's GPT-3.5-Turbo.
+          Embark on an exhilarating trivia journey with <span className="font-bold">Trivy Trivia</span>, a next-generation web application crafted with the power of Next.js and TypeScript. Dive into the world of trivia like never before, fueled by the groundbreaking OpenAIs GPT-3.5-Turbo.
         </p>
         <p className="text-lg mt-4">
           At Trivy Trivia, each quiz is an adventure, pushing the boundaries of conventional gaming. Our AI-driven approach ensures a fresh, challenging, and captivating experience with every round you play. Prepare to have your knowledge tested and your curiosity sparked!
@@ -18,9 +18,7 @@ export default function About() {
         <p className="text-lg mt-4">
           Curious about the brains behind the game? Peek into the creative world of our founder. Connect on <Link href="https://github.com/chrisvensand"><span className="underline text-green-300">GitHub</span></Link> or <Link href="https://www.linkedin.com/in/chrisvensand/"><span className="underline text-green-300">LinkedIn</span></Link> to see where innovation meets passion.
         </p>
-        <p className="text-lg mt-4">
-          Your feedback is the catalyst for our growth. Share your thoughts or ask questions at <a href="mailto:chrisvensand@gmail.com" className="underline text-green-300">chrisvensand@gmail.com</a>.
-        </p>
+        <p className="text-lg mt-4">Your feedback is the catalyst for our growth. Share your thoughts or ask questions at <a href="mailto:chrisvensand@gmail.com" className="underline text-green-300">chrisvensand@gmail.com</a>.</p>
       </div>
     </div>
   )

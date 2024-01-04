@@ -1,0 +1,1706 @@
+{
+    "triviaCategories": [
+        {
+            "category": "General Knowledge",
+            "games": [
+                {
+                    "title": "World Wonders",
+                    "slug": "world-wonders"
+                },
+                {
+                    "title": "Famous Inventions",
+                    "slug": "famous-inventions"
+                },
+                {
+                    "title": "Global Traditions",
+                    "slug": "global-traditions"
+                },
+                {
+                    "title": "Historic Moments",
+                    "slug": "historic-moments"
+                },
+                {
+                    "title": "Cultural Icons",
+                    "slug": "cultural-icons"
+                },
+                {
+                    "title": "Around the World",
+                    "slug": "around-the-world"
+                },
+                {
+                    "title": "Breakthroughs and Discoveries",
+                    "slug": "breakthroughs-and-discoveries"
+                },
+                {
+                    "title": "Everyday Science",
+                    "slug": "everyday-science"
+                },
+                {
+                    "title": "Historical Leaders",
+                    "slug": "historical-leaders"
+                },
+                {
+                    "title": "Celebrated Achievements",
+                    "slug": "celebrated-achievements"
+                },
+                {
+                    "title": "Global Cuisine",
+                    "slug": "global-cuisine"
+                },
+                {
+                    "title": "Artistic Masterpieces",
+                    "slug": "artistic-masterpieces"
+                },
+                {
+                    "title": "Technological Advances",
+                    "slug": "technological-advances"
+                },
+                {
+                    "title": "Literary Classics",
+                    "slug": "literary-classics"
+                },
+                {
+                    "title": "Musical Genres",
+                    "slug": "musical-genres"
+                },
+                {
+                    "title": "Sports Legends",
+                    "slug": "sports-legends"
+                },
+                {
+                    "title": "Cinematic Greats",
+                    "slug": "cinematic-greats"
+                },
+                {
+                    "title": "Television Milestones",
+                    "slug": "television-milestones"
+                },
+                {
+                    "title": "Fashion Evolution",
+                    "slug": "fashion-evolution"
+                },
+                {
+                    "title": "Natural Wonders",
+                    "slug": "natural-wonders"
+                }
+            ]
+        },
+        {
+            "category": "History",
+            "games": [
+                {
+                    "title": "Ancient Civilizations",
+                    "slug": "ancient-civilizations"
+                },
+                {
+                    "title": "World Wars",
+                    "slug": "world-wars"
+                },
+                {
+                    "title": "Historical Battles",
+                    "slug": "historical-battles"
+                },
+                {
+                    "title": "Famous Explorers",
+                    "slug": "famous-explorers"
+                },
+                {
+                    "title": "Revolutionary Figures",
+                    "slug": "revolutionary-figures"
+                },
+                {
+                    "title": "Ancient Rome and Greece",
+                    "slug": "ancient-rome-and-greece"
+                },
+                {
+                    "title": "Medieval Times",
+                    "slug": "medieval-times"
+                },
+                {
+                    "title": "Modern History",
+                    "slug": "modern-history"
+                },
+                {
+                    "title": "Historic Inventions",
+                    "slug": "historic-inventions"
+                },
+                {
+                    "title": "Great Empires",
+                    "slug": "great-empires"
+                },
+                {
+                    "title": "Renaissance Era",
+                    "slug": "renaissance-era"
+                },
+                {
+                    "title": "Age of Discovery",
+                    "slug": "age-of-discovery"
+                },
+                {
+                    "title": "Significant Treaties",
+                    "slug": "significant-treaties"
+                },
+                {
+                    "title": "Historical Artifacts",
+                    "slug": "historical-artifacts"
+                },
+                {
+                    "title": "Famous Dynasties",
+                    "slug": "famous-dynasties"
+                },
+                {
+                    "title": "Industrial Revolution",
+                    "slug": "industrial-revolution"
+                },
+                {
+                    "title": "Cold War Era",
+                    "slug": "cold-war-era"
+                },
+                {
+                    "title": "Historic Leaders",
+                    "slug": "historic-leaders"
+                },
+                {
+                    "title": "Monuments and Memorials",
+                    "slug": "monuments-and-memorials"
+                },
+                {
+                    "title": "Decisive Moments",
+                    "slug": "decisive-moments"
+                }
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "games": [
+                {
+                    "title": "Human Anatomy",
+                    "slug": "human-anatomy"
+                },
+                {
+                    "title": "The Animal Kingdom",
+                    "slug": "the-animal-kingdom"
+                },
+                {
+                    "title": "Plant Life",
+                    "slug": "plant-life"
+                },
+                {
+                    "title": "Physics Fundamentals",
+                    "slug": "physics-fundamentals"
+                },
+                {
+                    "title": "Chemistry in Everyday Life",
+                    "slug": "chemistry-in-everyday-life"
+                },
+                {
+                    "title": "Astronomical Wonders",
+                    "slug": "astronomical-wonders"
+                },
+                {
+                    "title": "Environmental Science",
+                    "slug": "environmental-science"
+                },
+                {
+                    "title": "Biological Breakthroughs",
+                    "slug": "biological-breakthroughs"
+                },
+                {
+                    "title": "Famous Scientists",
+                    "slug": "famous-scientists"
+                },
+                {
+                    "title": "Medical Milestones",
+                    "slug": "medical-milestones"
+                },
+                {
+                    "title": "Geological Formations",
+                    "slug": "geological-formations"
+                },
+                {
+                    "title": "Weather and Climate",
+                    "slug": "weather-and-climate"
+                },
+                {
+                    "title": "Marine Biology",
+                    "slug": "marine-biology"
+                },
+                {
+                    "title": "Energy and Sustainability",
+                    "slug": "energy-and-sustainability"
+                },
+                {
+                    "title": "Technological Innovations",
+                    "slug": "technological-innovations"
+                },
+                {
+                    "title": "Space Exploration",
+                    "slug": "space-exploration"
+                },
+                {
+                    "title": "Natural Phenomena",
+                    "slug": "natural-phenomena"
+                },
+                {
+                    "title": "Ecological Systems",
+                    "slug": "ecological-systems"
+                },
+                {
+                    "title": "Genetics and Evolution",
+                    "slug": "genetics-and-evolution"
+                },
+                {
+                    "title": "Earth Sciences",
+                    "slug": "earth-sciences"
+                }
+            ]
+        },
+        {
+            "category": "Geography",
+            "games": [
+                {
+                    "title": "Capital Cities",
+                    "slug": "capital-cities"
+                },
+                {
+                    "title": "World Maps",
+                    "slug": "world-maps"
+                },
+                {
+                    "title": "Geographical Landmarks",
+                    "slug": "geographical-landmarks"
+                },
+                {
+                    "title": "Cultural Geography",
+                    "slug": "cultural-geography"
+                },
+                {
+                    "title": "Islands and Archipelagos",
+                    "slug": "islands-and-archipelagos"
+                },
+                {
+                    "title": "Rivers and Lakes",
+                    "slug": "rivers-and-lakes"
+                },
+                {
+                    "title": "Mountain Ranges",
+                    "slug": "mountain-ranges"
+                },
+                {
+                    "title": "Deserts and Jungles",
+                    "slug": "deserts-and-jungles"
+                },
+                {
+                    "title": "Exploring Continents",
+                    "slug": "exploring-continents"
+                },
+                {
+                    "title": "Famous Expeditions",
+                    "slug": "famous-expeditions"
+                },
+                {
+                    "title": "Global Borders",
+                    "slug": "global-borders"
+                },
+                {
+                    "title": "Urban Landscapes",
+                    "slug": "urban-landscapes"
+                },
+                {
+                    "title": "Geopolitical Changes",
+                    "slug": "geopolitical-changes"
+                },
+                {
+                    "title": "Climate Zones",
+                    "slug": "climate-zones"
+                },
+                {
+                    "title": "Natural Resources",
+                    "slug": "natural-resources"
+                },
+                {
+                    "title": "Historical Geography",
+                    "slug": "historical-geography"
+                },
+                {
+                    "title": "Sea and Ocean Trivia",
+                    "slug": "sea-and-ocean-trivia"
+                },
+                {
+                    "title": "Population Demographics",
+                    "slug": "population-demographics"
+                },
+                {
+                    "title": "Travel Destinations",
+                    "slug": "travel-destinations"
+                },
+                {
+                    "title": "Regional Cuisines",
+                    "slug": "regional-cuisines"
+                }
+            ]
+        },
+        {
+            "category": "Music",
+            "games": [
+                {
+                    "title": "Musical Legends",
+                    "slug": "musical-legends"
+                },
+                {
+                    "title": "Genre Exploration",
+                    "slug": "genre-exploration"
+                },
+                {
+                    "title": "Song Lyrics",
+                    "slug": "song-lyrics"
+                },
+                {
+                    "title": "Famous Albums",
+                    "slug": "famous-albums"
+                },
+                {
+                    "title": "Musical Instruments",
+                    "slug": "musical-instruments"
+                },
+                {
+                    "title": "Rock and Roll History",
+                    "slug": "rock-and-roll-history"
+                },
+                {
+                    "title": "Classical Composers",
+                    "slug": "classical-composers"
+                },
+                {
+                    "title": "Pop Music Hits",
+                    "slug": "pop-music-hits"
+                },
+                {
+                    "title": "Jazz and Blues",
+                    "slug": "jazz-and-blues"
+                },
+                {
+                    "title": "Music Award Winners",
+                    "slug": "music-award-winners"
+                },
+                {
+                    "title": "Music Video Icons",
+                    "slug": "music-video-icons"
+                },
+                {
+                    "title": "Country Music",
+                    "slug": "country-music"
+                },
+                {
+                    "title": "Hip-Hop and Rap",
+                    "slug": "hip-hop-and-rap"
+                },
+                {
+                    "title": "Electronic and Dance",
+                    "slug": "electronic-and-dance"
+                },
+                {
+                    "title": "Musical Theatre",
+                    "slug": "musical-theatre"
+                },
+                {
+                    "title": "Iconic Performances",
+                    "slug": "iconic-performances"
+                },
+                {
+                    "title": "Music Festival Knowledge",
+                    "slug": "music-festival-knowledge"
+                },
+                {
+                    "title": "World Music",
+                    "slug": "world-music"
+                },
+                {
+                    "title": "Music Production",
+                    "slug": "music-production"
+                },
+                {
+                    "title": "Famous Soundtracks",
+                    "slug": "famous-soundtracks"
+                }
+            ]
+        },
+        {
+            "category": "Movies",
+            "games": [
+                {
+                    "title": "Oscar Winners",
+                    "slug": "oscar-winners"
+                },
+                {
+                    "title": "Film Classics",
+                    "slug": "film-classics"
+                },
+                {
+                    "title": "Modern Blockbusters",
+                    "slug": "modern-blockbusters"
+                },
+                {
+                    "title": "Directors' Cuts",
+                    "slug": "directors-cuts"
+                },
+                {
+                    "title": "Horror Flicks",
+                    "slug": "horror-flicks"
+                },
+                {
+                    "title": "Comedy Hits",
+                    "slug": "comedy-hits"
+                },
+                {
+                    "title": "Sci-Fi and Fantasy",
+                    "slug": "sci-fi-and-fantasy"
+                },
+                {
+                    "title": "Animated Films",
+                    "slug": "animated-films"
+                },
+                {
+                    "title": "Documentaries",
+                    "slug": "documentaries"
+                },
+                {
+                    "title": "Cult Classics",
+                    "slug": "cult-classics"
+                },
+                {
+                    "title": "Movie Quotes",
+                    "slug": "movie-quotes"
+                },
+                {
+                    "title": "Acting Legends",
+                    "slug": "acting-legends"
+                },
+                {
+                    "title": "Film Soundtracks",
+                    "slug": "film-soundtracks"
+                },
+                {
+                    "title": "Foreign Films",
+                    "slug": "foreign-films"
+                },
+                {
+                    "title": "Superhero Movies",
+                    "slug": "superhero-movies"
+                },
+                {
+                    "title": "Romantic Comedies",
+                    "slug": "romantic-comedies"
+                },
+                {
+                    "title": "Film Noir",
+                    "slug": "film-noir"
+                },
+                {
+                    "title": "Indie Films",
+                    "slug": "indie-films"
+                },
+                {
+                    "title": "Cinematography Masterpieces",
+                    "slug": "cinematography-masterpieces"
+                },
+                {
+                    "title": "Famous Film Scenes",
+                    "slug": "famous-film-scenes"
+                }
+            ]
+        },
+        {
+            "category": "Literature",
+            "games": [
+                {
+                    "title": "Classic Novels",
+                    "slug": "classic-novels"
+                },
+                {
+                    "title": "Contemporary Writers",
+                    "slug": "contemporary-writers"
+                },
+                {
+                    "title": "Poetry and Poets",
+                    "slug": "poetry-and-poets"
+                },
+                {
+                    "title": "Literary Awards",
+                    "slug": "literary-awards"
+                },
+                {
+                    "title": "Science Fiction and Fantasy",
+                    "slug": "science-fiction-and-fantasy"
+                },
+                {
+                    "title": "Historical Fiction",
+                    "slug": "historical-fiction"
+                },
+                {
+                    "title": "Biographies and Memoirs",
+                    "slug": "biographies-and-memoirs"
+                },
+                {
+                    "title": "Mystery and Thriller",
+                    "slug": "mystery-and-thriller"
+                },
+                {
+                    "title": "Children's Books",
+                    "slug": "childrens-books"
+                },
+                {
+                    "title": "Shakespeare's Plays",
+                    "slug": "shakespeares-plays"
+                },
+                {
+                    "title": "Literary Characters",
+                    "slug": "literary-characters"
+                },
+                {
+                    "title": "Famous Authors",
+                    "slug": "famous-authors"
+                },
+                {
+                    "title": "Book-to-Film Adaptations",
+                    "slug": "book-to-film-adaptations"
+                },
+                {
+                    "title": "Non-Fiction Works",
+                    "slug": "non-fiction-works"
+                },
+                {
+                    "title": "Graphic Novels",
+                    "slug": "graphic-novels"
+                },
+                {
+                    "title": "Literary Periods",
+                    "slug": "literary-periods"
+                },
+                {
+                    "title": "Short Stories",
+                    "slug": "short-stories"
+                },
+                {
+                    "title": "Feminist Literature",
+                    "slug": "feminist-literature"
+                },
+                {
+                    "title": "Travel Writing",
+                    "slug": "travel-writing"
+                },
+                {
+                    "title": "Literary Criticism",
+                    "slug": "literary-criticism"
+                }
+            ]
+        },
+        {
+            "category": "Sports",
+            "games": [
+                {
+                    "title": "Olympic Sports",
+                    "slug": "olympic-sports"
+                },
+                {
+                    "title": "World Cup Soccer",
+                    "slug": "world-cup-soccer"
+                },
+                {
+                    "title": "Basketball Greats",
+                    "slug": "basketball-greats"
+                },
+                {
+                    "title": "Tennis Champions",
+                    "slug": "tennis-champions"
+                },
+                {
+                    "title": "Golf Tournaments",
+                    "slug": "golf-tournaments"
+                },
+                {
+                    "title": "Baseball History",
+                    "slug": "baseball-history"
+                },
+                {
+                    "title": "American Football Legends",
+                    "slug": "american-football-legends"
+                },
+                {
+                    "title": "Winter Sports",
+                    "slug": "winter-sports"
+                },
+                {
+                    "title": "Extreme Sports",
+                    "slug": "extreme-sports"
+                },
+                {
+                    "title": "Martial Arts",
+                    "slug": "martial-arts"
+                },
+                {
+                    "title": "Athletics Records",
+                    "slug": "athletics-records"
+                },
+                {
+                    "title": "Swimming Stars",
+                    "slug": "swimming-stars"
+                },
+                {
+                    "title": "Boxing Matches",
+                    "slug": "boxing-matches"
+                },
+                {
+                    "title": "Cricket Matches",
+                    "slug": "cricket-matches"
+                },
+                {
+                    "title": "Rugby Teams",
+                    "slug": "rugby-teams"
+                },
+                {
+                    "title": "Hockey History",
+                    "slug": "hockey-history"
+                },
+                {
+                    "title": "Auto Racing",
+                    "slug": "auto-racing"
+                },
+                {
+                    "title": "Cycling Competitions",
+                    "slug": "cycling-competitions"
+                },
+                {
+                    "title": "Equestrian Events",
+                    "slug": "equestrian-events"
+                },
+                {
+                    "title": "Water Sports",
+                    "slug": "water-sports"
+                }
+            ]
+        },
+        {
+            "category": "Television",
+            "games": [
+                {
+                    "title": "TV Show Classics",
+                    "slug": "tv-show-classics"
+                },
+                {
+                    "title": "Modern Series",
+                    "slug": "modern-series"
+                },
+                {
+                    "title": "Reality TV",
+                    "slug": "reality-tv"
+                },
+                {
+                    "title": "Comedy Sitcoms",
+                    "slug": "comedy-sitcoms"
+                },
+                {
+                    "title": "Drama Series",
+                    "slug": "drama-series"
+                },
+                {
+                    "title": "Crime and Mystery",
+                    "slug": "crime-and-mystery"
+                },
+                {
+                    "title": "Science Fiction Shows",
+                    "slug": "science-fiction-shows"
+                },
+                {
+                    "title": "Animated Series",
+                    "slug": "animated-series"
+                },
+                {
+                    "title": "TV Game Shows",
+                    "slug": "tv-game-shows"
+                },
+                {
+                    "title": "Documentary Series",
+                    "slug": "documentary-series"
+                },
+                {
+                    "title": "Kids' TV Shows",
+                    "slug": "kids-tv-shows"
+                },
+                {
+                    "title": "Soap Operas",
+                    "slug": "soap-operas"
+                },
+                {
+                    "title": "TV Talk Shows",
+                    "slug": "tv-talk-shows"
+                },
+                {
+                    "title": "British Television",
+                    "slug": "british-television"
+                },
+                {
+                    "title": "Historical Series",
+                    "slug": "historical-series"
+                },
+                {
+                    "title": "TV Theme Songs",
+                    "slug": "tv-theme-songs"
+                },
+                {
+                    "title": "Cult TV Shows",
+                    "slug": "cult-tv-shows"
+                },
+                {
+                    "title": "Mini-Series",
+                    "slug": "mini-series"
+                },
+                {
+                    "title": "Late Night TV",
+                    "slug": "late-night-tv"
+                },
+                {
+                    "title": "Streaming Hits",
+                    "slug": "streaming-hits"
+                }
+            ]
+        },
+        {
+            "category": "Art & Culture",
+            "games": [
+                {
+                    "title": "Famous Paintings",
+                    "slug": "famous-paintings"
+                },
+                {
+                    "title": "Sculpture Masterpieces",
+                    "slug": "sculpture-masterpieces"
+                },
+                {
+                    "title": "Art Movements",
+                    "slug": "art-movements"
+                },
+                {
+                    "title": "Photography Icons",
+                    "slug": "photography-icons"
+                },
+                {
+                    "title": "Contemporary Artists",
+                    "slug": "contemporary-artists"
+                },
+                {
+                    "title": "Art History",
+                    "slug": "art-history"
+                },
+                {
+                    "title": "Museum Collections",
+                    "slug": "museum-collections"
+                },
+                {
+                    "title": "Cultural Symbols",
+                    "slug": "cultural-symbols"
+                },
+                {
+                    "title": "Architectural Wonders",
+                    "slug": "architectural-wonders"
+                },
+                {
+                    "title": "Art Techniques",
+                    "slug": "art-techniques"
+                },
+                {
+                    "title": "Folk Art Traditions",
+                    "slug": "folk-art-traditions"
+                },
+                {
+                    "title": "Performing Arts",
+                    "slug": "performing-arts"
+                },
+                {
+                    "title": "Art and Society",
+                    "slug": "art-and-society"
+                },
+                {
+                    "title": "Fashion in Art",
+                    "slug": "fashion-in-art"
+                },
+                {
+                    "title": "Art Criticism",
+                    "slug": "art-criticism"
+                },
+                {
+                    "title": "Art Around the World",
+                    "slug": "art-around-the-world"
+                },
+                {
+                    "title": "Street Art",
+                    "slug": "street-art"
+                },
+                {
+                    "title": "Artistic Influences",
+                    "slug": "artistic-influences"
+                },
+                {
+                    "title": "Gallery Exhibitions",
+                    "slug": "gallery-exhibitions"
+                },
+                {
+                    "title": "Art Collecting",
+                    "slug": "art-collecting"
+                }
+            ]
+        },
+        {
+            "category": "Food & Drink",
+            "games": [
+                {
+                    "title": "Culinary Techniques",
+                    "slug": "culinary-techniques"
+                },
+                {
+                    "title": "World Cuisines",
+                    "slug": "world-cuisines"
+                },
+                {
+                    "title": "Famous Chefs",
+                    "slug": "famous-chefs"
+                },
+                {
+                    "title": "Food History",
+                    "slug": "food-history"
+                },
+                {
+                    "title": "Desserts and Sweets",
+                    "slug": "desserts-and-sweets"
+                },
+                {
+                    "title": "Wine Knowledge",
+                    "slug": "wine-knowledge"
+                },
+                {
+                    "title": "Beer Varieties",
+                    "slug": "beer-varieties"
+                },
+                {
+                    "title": "Cocktail Mixology",
+                    "slug": "cocktail-mixology"
+                },
+                {
+                    "title": "Coffee and Tea",
+                    "slug": "coffee-and-tea"
+                },
+                {
+                    "title": "Street Food",
+                    "slug": "street-food"
+                },
+                {
+                    "title": "Vegetarian and Vegan",
+                    "slug": "vegetarian-and-vegan"
+                },
+                {
+                    "title": "Spices and Herbs",
+                    "slug": "spices-and-herbs"
+                },
+                {
+                    "title": "Cooking Shows",
+                    "slug": "cooking-shows"
+                },
+                {
+                    "title": "Baking and Pastries",
+                    "slug": "baking-and-pastries"
+                },
+                {
+                    "title": "Food Festivals",
+                    "slug": "food-festivals"
+                },
+                {
+                    "title": "Healthy Eating",
+                    "slug": "healthy-eating"
+                },
+                {
+                    "title": "Cheese Varieties",
+                    "slug": "cheese-varieties"
+                },
+                {
+                    "title": "Seafood Delicacies",
+                    "slug": "seafood-delicacies"
+                },
+                {
+                    "title": "Regional Dishes",
+                    "slug": "regional-dishes"
+                },
+                {
+                    "title": "Food and Culture",
+                    "slug": "food-and-culture"
+                }
+            ]
+        },
+        {
+            "category": "Technology & Innovation",
+            "games": [
+                {
+                    "title": "Tech Giants",
+                    "slug": "tech-giants"
+                },
+                {
+                    "title": "Innovative Startups",
+                    "slug": "innovative-startups"
+                },
+                {
+                    "title": "Computer History",
+                    "slug": "computer-history"
+                },
+                {
+                    "title": "Gadgets and Devices",
+                    "slug": "gadgets-and-devices"
+                },
+                {
+                    "title": "Artificial Intelligence",
+                    "slug": "artificial-intelligence"
+                },
+                {
+                    "title": "Space Tech",
+                    "slug": "space-tech"
+                },
+                {
+                    "title": "Environmental Tech",
+                    "slug": "environmental-tech"
+                },
+                {
+                    "title": "Biotechnology",
+                    "slug": "biotechnology"
+                },
+                {
+                    "title": "Virtual Reality",
+                    "slug": "virtual-reality"
+                },
+                {
+                    "title": "Mobile Apps",
+                    "slug": "mobile-apps"
+                },
+                {
+                    "title": "Video Game History",
+                    "slug": "video-game-history"
+                },
+                {
+                    "title": "Internet Milestones",
+                    "slug": "internet-milestones"
+                },
+                {
+                    "title": "Robotics",
+                    "slug": "robotics"
+                },
+                {
+                    "title": "Future Predictions",
+                    "slug": "future-predictions"
+                },
+                {
+                    "title": "Cybersecurity",
+                    "slug": "cybersecurity"
+                },
+                {
+                    "title": "Automotive Innovations",
+                    "slug": "automotive-innovations"
+                },
+                {
+                    "title": "Energy Solutions",
+                    "slug": "energy-solutions"
+                },
+                {
+                    "title": "Tech Entrepreneurs",
+                    "slug": "tech-entrepreneurs"
+                },
+                {
+                    "title": "Digital Media",
+                    "slug": "digital-media"
+                },
+                {
+                    "title": "Telecommunication Advances",
+                    "slug": "telecommunication-advances"
+                }
+            ]
+        },
+        {
+            "category": "Pop Culture",
+            "games": [
+                {
+                    "title": "Celebrity Gossip",
+                    "slug": "celebrity-gossip"
+                },
+                {
+                    "title": "Fashion Trends",
+                    "slug": "fashion-trends"
+                },
+                {
+                    "title": "Social Media Stars",
+                    "slug": "social-media-stars"
+                },
+                {
+                    "title": "Music Industry News",
+                    "slug": "music-industry-news"
+                },
+                {
+                    "title": "Viral Sensations",
+                    "slug": "viral-sensations"
+                },
+                {
+                    "title": "Reality TV Drama",
+                    "slug": "reality-tv-drama"
+                },
+                {
+                    "title": "Internet Memes",
+                    "slug": "internet-memes"
+                },
+                {
+                    "title": "Hollywood Scandals",
+                    "slug": "hollywood-scandals"
+                },
+                {
+                    "title": "Pop Music Icons",
+                    "slug": "pop-music-icons"
+                },
+                {
+                    "title": "Movie Premieres",
+                    "slug": "movie-premieres"
+                },
+                {
+                    "title": "TV Series Finales",
+                    "slug": "tv-series-finales"
+                },
+                {
+                    "title": "Award Show Highlights",
+                    "slug": "award-show-highlights"
+                },
+                {
+                    "title": "Celebrity Couples",
+                    "slug": "celebrity-couples"
+                },
+                {
+                    "title": "Entertainment Magazines",
+                    "slug": "entertainment-magazines"
+                },
+                {
+                    "title": "Red Carpet Moments",
+                    "slug": "red-carpet-moments"
+                },
+                {
+                    "title": "Celebrity Endorsements",
+                    "slug": "celebrity-endorsements"
+                },
+                {
+                    "title": "Fan Cultures",
+                    "slug": "fan-cultures"
+                },
+                {
+                    "title": "Pop Art",
+                    "slug": "pop-art"
+                },
+                {
+                    "title": "YouTubers and Streamers",
+                    "slug": "youtubers-and-streamers"
+                },
+                {
+                    "title": "Celebrity Biographies",
+                    "slug": "celebrity-biographies"
+                }
+            ]
+        },
+        {
+            "category": "Animals & Wildlife",
+            "games": [
+                {
+                    "title": "Safari Adventure",
+                    "slug": "safari-adventure"
+                },
+                {
+                    "title": "Birds of the World",
+                    "slug": "birds-of-the-world"
+                },
+                {
+                    "title": "Aquatic Wonders",
+                    "slug": "aquatic-wonders"
+                },
+                {
+                    "title": "Endangered Species",
+                    "slug": "endangered-species"
+                },
+                {
+                    "title": "Animal Habitats",
+                    "slug": "animal-habitats"
+                },
+                {
+                    "title": "Insects and Arachnids",
+                    "slug": "insects-and-arachnids"
+                },
+                {
+                    "title": "Predators of the Wild",
+                    "slug": "predators-of-the-wild"
+                },
+                {
+                    "title": "Animal Behavior",
+                    "slug": "animal-behavior"
+                },
+                {
+                    "title": "Reptiles and Amphibians",
+                    "slug": "reptiles-and-amphibians"
+                },
+                {
+                    "title": "Conservation Efforts",
+                    "slug": "conservation-efforts"
+                },
+                {
+                    "title": "Pets Around the World",
+                    "slug": "pets-around-the-world"
+                },
+                {
+                    "title": "Jungle Explorers",
+                    "slug": "jungle-explorers"
+                },
+                {
+                    "title": "Animal Mythology",
+                    "slug": "animal-mythology"
+                },
+                {
+                    "title": "Extinct Species",
+                    "slug": "extinct-species"
+                },
+                {
+                    "title": "Animal Adaptations",
+                    "slug": "animal-adaptations"
+                },
+                {
+                    "title": "Wildlife Sanctuaries",
+                    "slug": "wildlife-sanctuaries"
+                },
+                {
+                    "title": "Nature's Oddities",
+                    "slug": "natures-oddities"
+                },
+                {
+                    "title": "Animal Kingdom",
+                    "slug": "animal-kingdom"
+                },
+                {
+                    "title": "Eco-Systems",
+                    "slug": "eco-systems"
+                },
+                {
+                    "title": "Veterinary Science",
+                    "slug": "veterinary-science"
+                }
+            ]
+        },
+        {
+            "category": "Mythology & Folklore",
+            "games": [
+                {
+                    "title": "Greek Myths",
+                    "slug": "greek-myths"
+                },
+                {
+                    "title": "Norse Legends",
+                    "slug": "norse-legends"
+                },
+                {
+                    "title": "Folk Tales from Around the World",
+                    "slug": "folk-tales-from-around-the-world"
+                },
+                {
+                    "title": "Legendary Creatures",
+                    "slug": "legendary-creatures"
+                },
+                {
+                    "title": "Egyptian Mythology",
+                    "slug": "egyptian-mythology"
+                },
+                {
+                    "title": "Asian Mythos",
+                    "slug": "asian-mythos"
+                },
+                {
+                    "title": "American Folklore",
+                    "slug": "american-folklore"
+                },
+                {
+                    "title": "African Mythology",
+                    "slug": "african-mythology"
+                },
+                {
+                    "title": "Gods and Goddesses",
+                    "slug": "gods-and-goddesses"
+                },
+                {
+                    "title": "Mythical Heroes",
+                    "slug": "mythical-heroes"
+                },
+                {
+                    "title": "European Folktales",
+                    "slug": "european-folktales"
+                },
+                {
+                    "title": "Mythological Beasts",
+                    "slug": "mythological-beasts"
+                },
+                {
+                    "title": "Ancient Legends",
+                    "slug": "ancient-legends"
+                },
+                {
+                    "title": "Celtic Lore",
+                    "slug": "celtic-lore"
+                },
+                {
+                    "title": "Latin American Legends",
+                    "slug": "latin-american-legends"
+                },
+                {
+                    "title": "Oceanic Myths",
+                    "slug": "oceanic-myths"
+                },
+                {
+                    "title": "Middle Eastern Tales",
+                    "slug": "middle-eastern-tales"
+                },
+                {
+                    "title": "Legendary Battles",
+                    "slug": "legendary-battles"
+                },
+                {
+                    "title": "Mythical Places",
+                    "slug": "mythical-places"
+                },
+                {
+                    "title": "Fables and Parables",
+                    "slug": "fables-and-parables"
+                }
+            ]
+        },
+        {
+            "category": "Politics & Government",
+            "games": [
+                {
+                    "title": "World Leaders",
+                    "slug": "world-leaders"
+                },
+                {
+                    "title": "Famous Speeches",
+                    "slug": "famous-speeches"
+                },
+                {
+                    "title": "Political Systems",
+                    "slug": "political-systems"
+                },
+                {
+                    "title": "Historic Elections",
+                    "slug": "historic-elections"
+                },
+                {
+                    "title": "International Relations",
+                    "slug": "international-relations"
+                },
+                {
+                    "title": "Government Structure",
+                    "slug": "government-structure"
+                },
+                {
+                    "title": "Political Parties",
+                    "slug": "political-parties"
+                },
+                {
+                    "title": "Revolutionary Movements",
+                    "slug": "revolutionary-movements"
+                },
+                {
+                    "title": "Historic Agreements",
+                    "slug": "historic-agreements"
+                },
+                {
+                    "title": "Political Ideologies",
+                    "slug": "political-ideologies"
+                },
+                {
+                    "title": "Famous Politicians",
+                    "slug": "famous-politicians"
+                },
+                {
+                    "title": "Political Scandals",
+                    "slug": "political-scandals"
+                },
+                {
+                    "title": "Key Legislations",
+                    "slug": "key-legislations"
+                },
+                {
+                    "title": "Diplomatic History",
+                    "slug": "diplomatic-history"
+                },
+                {
+                    "title": "Civil Rights Movements",
+                    "slug": "civil-rights-movements"
+                },
+                {
+                    "title": "International Organizations",
+                    "slug": "international-organizations"
+                },
+                {
+                    "title": "National Constitutions",
+                    "slug": "national-constitutions"
+                },
+                {
+                    "title": "Political Theories",
+                    "slug": "political-theories"
+                },
+                {
+                    "title": "Economic Policies",
+                    "slug": "economic-policies"
+                },
+                {
+                    "title": "Judicial Landmarks",
+                    "slug": "judicial-landmarks"
+                }
+            ]
+        },
+        {
+            "category": "Mathematics & Numbers",
+            "games": [
+                {
+                    "title": "Famous Mathematicians",
+                    "slug": "famous-mathematicians"
+                },
+                {
+                    "title": "Mathematical Theorems",
+                    "slug": "mathematical-theorems"
+                },
+                {
+                    "title": "Number Theory",
+                    "slug": "number-theory"
+                },
+                {
+                    "title": "Geometry Wonders",
+                    "slug": "geometry-wonders"
+                },
+                {
+                    "title": "Algebra Challenges",
+                    "slug": "algebra-challenges"
+                },
+                {
+                    "title": "Calculus Concepts",
+                    "slug": "calculus-concepts"
+                },
+                {
+                    "title": "Statistics and Probability",
+                    "slug": "statistics-and-probability"
+                },
+                {
+                    "title": "Mathematical Puzzles",
+                    "slug": "mathematical-puzzles"
+                },
+                {
+                    "title": "Historic Equations",
+                    "slug": "historic-equations"
+                },
+                {
+                    "title": "Math in Nature",
+                    "slug": "math-in-nature"
+                },
+                {
+                    "title": "Mathematical Logic",
+                    "slug": "mathematical-logic"
+                },
+                {
+                    "title": "Computer Algorithms",
+                    "slug": "computer-algorithms"
+                },
+                {
+                    "title": "Financial Mathematics",
+                    "slug": "financial-mathematics"
+                },
+                {
+                    "title": "Quantum Mechanics",
+                    "slug": "quantum-mechanics"
+                },
+                {
+                    "title": "Mathematical Games",
+                    "slug": "mathematical-games"
+                },
+                {
+                    "title": "Cryptography",
+                    "slug": "cryptography"
+                },
+                {
+                    "title": "Set Theory",
+                    "slug": "set-theory"
+                },
+                {
+                    "title": "Mathematical Paradoxes",
+                    "slug": "mathematical-paradoxes"
+                },
+                {
+                    "title": "Numerical Analysis",
+                    "slug": "numerical-analysis"
+                },
+                {
+                    "title": "Math in Everyday Life",
+                    "slug": "math-in-everyday-life"
+                }
+            ]
+        },
+        {
+            "category": "Fashion & Design",
+            "games": [
+                {
+                    "title": "Fashion Icons",
+                    "slug": "fashion-icons"
+                },
+                {
+                    "title": "Haute Couture",
+                    "slug": "haute-couture"
+                },
+                {
+                    "title": "Fashion through the Decades",
+                    "slug": "fashion-through-the-decades"
+                },
+                {
+                    "title": "World Fashion Capitals",
+                    "slug": "world-fashion-capitals"
+                },
+                {
+                    "title": "Famous Designers",
+                    "slug": "famous-designers"
+                },
+                {
+                    "title": "Fashion Trends",
+                    "slug": "fashion-trends"
+                },
+                {
+                    "title": "Costume Design",
+                    "slug": "costume-design"
+                },
+                {
+                    "title": "Jewelry and Accessories",
+                    "slug": "jewelry-and-accessories"
+                },
+                {
+                    "title": "Textile Arts",
+                    "slug": "textile-arts"
+                },
+                {
+                    "title": "Fashion in Film",
+                    "slug": "fashion-in-film"
+                },
+                {
+                    "title": "Sustainable Fashion",
+                    "slug": "sustainable-fashion"
+                },
+                {
+                    "title": "Fashion Photography",
+                    "slug": "fashion-photography"
+                },
+                {
+                    "title": "Bridal Fashion",
+                    "slug": "bridal-fashion"
+                },
+                {
+                    "title": "Men's Fashion",
+                    "slug": "mens-fashion"
+                },
+                {
+                    "title": "Fashion Shows",
+                    "slug": "fashion-shows"
+                },
+                {
+                    "title": "Fashion Marketing",
+                    "slug": "fashion-marketing"
+                },
+                {
+                    "title": "Street Style",
+                    "slug": "street-style"
+                },
+                {
+                    "title": "Fashion and Culture",
+                    "slug": "fashion-and-culture"
+                },
+                {
+                    "title": "Fashion Technology",
+                    "slug": "fashion-technology"
+                },
+                {
+                    "title": "Influential Fashion Movements",
+                    "slug": "influential-fashion-movements"
+                }
+            ]
+        },
+        {
+            "category": "Languages & Linguistics",
+            "games": [
+                {
+                    "title": "World Languages",
+                    "slug": "world-languages"
+                },
+                {
+                    "title": "Linguistic Families",
+                    "slug": "linguistic-families"
+                },
+                {
+                    "title": "Language Origins",
+                    "slug": "language-origins"
+                },
+                {
+                    "title": "Famous Linguists",
+                    "slug": "famous-linguists"
+                },
+                {
+                    "title": "Writing Systems",
+                    "slug": "writing-systems"
+                },
+                {
+                    "title": "Language and Culture",
+                    "slug": "language-and-culture"
+                },
+                {
+                    "title": "Dialects and Accents",
+                    "slug": "dialects-and-accents"
+                },
+                {
+                    "title": "Constructed Languages",
+                    "slug": "constructed-languages"
+                },
+                {
+                    "title": "Language Evolution",
+                    "slug": "language-evolution"
+                },
+                {
+                    "title": "Speech and Phonetics",
+                    "slug": "speech-and-phonetics"
+                },
+                {
+                    "title": "Language in Literature",
+                    "slug": "language-in-literature"
+                },
+                {
+                    "title": "Language Learning",
+                    "slug": "language-learning"
+                },
+                {
+                    "title": "Sign Languages",
+                    "slug": "sign-languages"
+                },
+                {
+                    "title": "Language and Technology",
+                    "slug": "language-and-technology"
+                },
+                {
+                    "title": "Sociolinguistics",
+                    "slug": "sociolinguistics"
+                },
+                {
+                    "title": "Language Puzzles",
+                    "slug": "language-puzzles"
+                },
+                {
+                    "title": "Historic Scripts",
+                    "slug": "historic-scripts"
+                },
+                {
+                    "title": "Language and Identity",
+                    "slug": "language-and-identity"
+                },
+                {
+                    "title": "Translation and Interpretation",
+                    "slug": "translation-and-interpretation"
+                },
+                {
+                    "title": "Neurolinguistics",
+                    "slug": "neurolinguistics"
+                }
+            ]
+        },
+        {
+            "category": "Astronomy & Space",
+            "games": [
+                {
+                    "title": "Solar System",
+                    "slug": "solar-system"
+                },
+                {
+                    "title": "Constellations",
+                    "slug": "constellations"
+                },
+                {
+                    "title": "Space Exploration",
+                    "slug": "space-exploration"
+                },
+                {
+                    "title": "Famous Astronomers",
+                    "slug": "famous-astronomers"
+                },
+                {
+                    "title": "Galaxies Far Away",
+                    "slug": "galaxies-far-away"
+                },
+                {
+                    "title": "Space Missions",
+                    "slug": "space-missions"
+                },
+                {
+                    "title": "Astronomical Phenomena",
+                    "slug": "astronomical-phenomena"
+                },
+                {
+                    "title": "Telescopes and Observatories",
+                    "slug": "telescopes-and-observatories"
+                },
+                {
+                    "title": "Astrophysics",
+                    "slug": "astrophysics"
+                },
+                {
+                    "title": "Planetary Science",
+                    "slug": "planetary-science"
+                },
+                {
+                    "title": "The Big Bang",
+                    "slug": "the-big-bang"
+                },
+                {
+                    "title": "Black Holes",
+                    "slug": "black-holes"
+                },
+                {
+                    "title": "Space Technology",
+                    "slug": "space-technology"
+                },
+                {
+                    "title": "Life in Space",
+                    "slug": "life-in-space"
+                },
+                {
+                    "title": "Alien Worlds",
+                    "slug": "alien-worlds"
+                },
+                {
+                    "title": "Cosmology",
+                    "slug": "cosmology"
+                },
+                {
+                    "title": "Meteors and Comets",
+                    "slug": "meteors-and-comets"
+                },
+                {
+                    "title": "The Moon and Its Phases",
+                    "slug": "the-moon-and-its-phases"
+                },
+                {
+                    "title": "Star Formation",
+                    "slug": "star-formation"
+                },
+                {
+                    "title": "The Universe",
+                    "slug": "the-universe"
+                }
+            ]
+        }
+    ]
+}
+      
+  

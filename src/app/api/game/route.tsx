@@ -36,13 +36,24 @@ async function fetchGameFromDatabase(slug: string, numQuestions: number) {
         // Find the game with the given slug
         const game = await collection.findOne({ slug });
 
-        // Limit the number of questions if numQuestions is greater than 0
+        // Increment the plays value
+        await collection.updateOne({ slug }, { $inc: { plays: 1 } });
+
+        // Shuffle and limit the number of questions if numQuestions is greater than 0
         if (numQuestions > 0 && game && game.questions) {
-            game.questions = game.questions.slice(0, numQuestions);
+            game.questions = shuffleArray(game.questions).slice(0, numQuestions);
         }
 
         return game;
     } finally {
         await client.close();
     }
+}
+
+function shuffleArray(array: any[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
